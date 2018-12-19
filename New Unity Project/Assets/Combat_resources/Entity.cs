@@ -2,23 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+abstract class Entity
+{
 
-	abstract class Entity
+	//public string type { get; set; }
+	public GlobalStats Primary { set; get; }
+	public int Level { set; get; }
+    public int Exp;
+
+
+	public Entity(GlobalStats primary, int level, int exp)
 	{
+        this.Primary = primary;
+        this.Level = level;
+	}
 
-		//public string type { get; set; }
-		public PrimaryStats primary { set; get; }
-		public int Level { set; get; }
-		public SecondaryStats secondary { set; get; }
-		public int position { set; get; }
-
-		public Entity()
-		{
-            this.primary = new PrimaryStats();
-		}
+    public 
 
         
 
 
 
-	}
+}
