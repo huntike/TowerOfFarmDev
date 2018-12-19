@@ -13,12 +13,14 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.4.16f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -234,13 +236,13 @@
   <ItemGroup>
     <Compile Include="Assets\Combat_resources\Antagonist.cs" />
     <Compile Include="Assets\Combat_resources\Boss.cs" />
-    <Compile Include="Assets\Combat_resources\CaracteristicBase.cs" />
+    <Compile Include="Assets\Combat_resources\PrimaryStats.cs" />
     <Compile Include="Assets\Combat_resources\Compagnon.cs" />
     <Compile Include="Assets\Combat_resources\Entity.cs" />
     <Compile Include="Assets\Combat_resources\Hero.cs" />
     <Compile Include="Assets\Combat_resources\Mobs.cs" />
     <Compile Include="Assets\Combat_resources\Protagonist.cs" />
-    <Compile Include="Assets\Combat_resources\SecondaryCarac.cs" />
+    <Compile Include="Assets\Combat_resources\SecondaryStats.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-	class SecondaryCarac
+	class SecondaryStats
 	{
 		public int Force { get; set; }
 		public int Dexterite { set; get; }
@@ -12,7 +12,7 @@ using UnityEngine;
 		public int Charisme { set; get; }
 		public int Constitution { set; get; }
 
-		public SecondaryCarac()
+		public SecondaryStats()
 		{
 
 		}

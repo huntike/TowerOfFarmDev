@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-	class CaracteristicBase
+	class PrimaryStats
 	{
 
 		public int HealthPoint { get; set; }
@@ -13,7 +13,7 @@ using UnityEngine;
 		public int ResistanceDamageP { set; get; }
 		public int ResistanceMental { set; get; }
 
-		public CaracteristicBase()
+		public PrimaryStats()
 		{
 
 		}
