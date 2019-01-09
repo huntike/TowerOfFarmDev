@@ -17,6 +17,7 @@ class GlobalStats
 	public int Constitution { set; get; }
 
     //Secondary stats
+<<<<<<< .merge_file_a07740
     public int HealthPoint { set; }
     public int Mana { get; }
     public int Stamina { get; }
@@ -28,6 +29,17 @@ class GlobalStats
     /**
     * @author Nummy
     * @version 0.1
+=======
+    public int HealthPoint { get; set; }
+    public int Mana { set; get; }
+    public int Stamina { set; get; }
+    public int ResistanceDamageM { set; get; }
+    public int ResistanceDamageP { set; get; }
+    public int ResistanceMental { set; get; }
+    /**
+    * @author Nummy
+    * @
+>>>>>>> .merge_file_a01392
     **/
     public GlobalStats(int f , int d, int i, int s, int c, int ch)
 	{
@@ -37,6 +49,7 @@ class GlobalStats
         this.Sagesse = s;
         this.Charisme = ch;
         this.Constitution = c;
+<<<<<<< .merge_file_a07740
     }
 
     /**
@@ -51,6 +64,8 @@ class GlobalStats
         this.Sagesse = 10;
         this.Charisme = 10;
         this.Constitution = 10;
+=======
+>>>>>>> .merge_file_a01392
         
     }
 

@@ -5,11 +5,14 @@ using UnityEngine;
 public class Job {
 
     public string Name { get; set; }
-    public List<Spell> MyProperty { get; set; }
-    protected CaracteristicBase Bonus { get; set; }
+    public List<Spells> Spells { get; set; }
+    public List<int> Bonus { get; set; }
+    //ajouts des models homme et femme
 
-    public Job()
+    public Job(string name, List<int> bonus , List<Spells> spells)
     {
-
+        this.Name = name;
+        this.Bonus = bonus;
+        this.Spells = spells;
     }
 }

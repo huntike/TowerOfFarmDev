@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+<<<<<<< .merge_file_a17300
 /**
  * @author Nummy
  * @version 0.1
@@ -13,10 +14,19 @@ abstract class Protagonist : Entity{
     public string Gender { set; get; }
 	public Job Job { set; get; }
 	public int Helmet { set; get; }
+=======
+public class Protagonist {
+
+	public string Nom { get; set; }
+	public string Gender { set; get; }
+	//public Job Job { set; get; }
+	public string Helmet { set; get; }
+>>>>>>> .merge_file_a10396
 	public int Body { set; get; }
 	public int Weapon { set; get; }
 	public int Shield { set; get; }
 
+<<<<<<< .merge_file_a17300
     /**
     * @author Nummy
     * @version 0.1
@@ -40,6 +50,14 @@ abstract class Protagonist : Entity{
      * @version 0.1
      */
     public void CastSpell()
+=======
+	public Protagonist()
+	{
+
+	}
+
+	public void CastSpell()
+>>>>>>> .merge_file_a10396
 	{
 
 	}
@@ -49,5 +67,17 @@ abstract class Protagonist : Entity{
 
 	}
 
+<<<<<<< .merge_file_a17300
 	
+=======
+	public void RegenMana()
+	{
+
+	}
+
+	public void RegenStamina()
+	{
+
+	}
+>>>>>>> .merge_file_a10396
 }
