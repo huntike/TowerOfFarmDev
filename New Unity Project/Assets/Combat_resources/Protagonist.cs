@@ -9,7 +9,8 @@ using UnityEngine;
 abstract class Protagonist : Entity{
 
 	public string Nom { get; set; }
-	public string Gender { set; get; }
+    public List<Spells> Spells { get; set; }
+    public string Gender { set; get; }
 	public Job Job { set; get; }
 	public int Helmet { set; get; }
 	public int Body { set; get; }
