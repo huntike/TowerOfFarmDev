@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+     * @author Nummy  
+     * @version 0.1
+     */
 abstract class Entity
 {
 
@@ -10,15 +14,26 @@ abstract class Entity
 	public int Level { set; get; }
     public int Exp;
 
-
-	public Entity(GlobalStats primary, int level, int exp)
+    /**
+     * @author Nummy  
+     * @version 0.1
+     */
+    public Entity(GlobalStats primary, int level, int exp)
 	{
+        this.Exp = exp;
         this.Primary = primary;
         this.Level = level;
 	}
 
-    public 
+    /**
+     * @author Nummy  
+     * @version 0.1
+     */
+    public void Attaque() {
 
+    }
+
+    
         
 
 

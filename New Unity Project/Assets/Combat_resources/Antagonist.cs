@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-	class Antagonist
+class Antagonist
+{
+    public string Nom { set; get; }
+    public string Race { get; set; }
+
+    Antagonist(string name, string race)
 	{
-		public string Nom { set; get; }
-
-		Antagonist()
-		{
-
-		}
+        this.Nom = name;
+        this.Race = race;
 	}
+}
 
